@@ -2,7 +2,10 @@
 
 The request for comments describes a configuration standard for WordPress plugins.
 
-In the best case, this proposal should go into the WordPress core, but a good and easy to implement intermediate step would be to implement it via a library that can be used by plugins.
+In the preferred case, this proposal should go into the WordPress core, but a good and easy to implement intermediate step would be to implement it via a library that can be used by plugins.
+
+- [Official URL for this RFC](https://github.com/friends-of-wp/rfc-fwp-01-settings)
+- [Official discussion space](https://github.com/friends-of-wp/rfc-fwp-01-settings/discussions)
 
 ## Motivation
 
