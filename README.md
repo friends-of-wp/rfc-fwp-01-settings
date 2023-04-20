@@ -1,4 +1,4 @@
-# RFC-FWP-01 - Plugin Configuration
+# RFC-FWP-01 - Plugin Settings
 
 The request for comments describes a configuration standard for WordPress plugins.
 
