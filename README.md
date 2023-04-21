@@ -73,7 +73,7 @@ settings:
 
 ### During WordPress Installation
 
-When using the example YAML the WordPress installation process will have an aditional step that allows the user to configure the pre-installed plugin. 
+When using the example YAML the WordPress installation process will have an additional step that allows the user to configure the pre-installed plugin. 
 
 ![WordPress installation](/images/WordPress%20installation.png)
 
