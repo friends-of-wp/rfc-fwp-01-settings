@@ -44,22 +44,26 @@ This example shows how a settings configuration can look like in YAML format.
 
 ```yaml
 settings:
+
+  allow_setup_on_wp_installation: true
+
+  groups:
   
-  shutdown:
-    
-    shutdown_condition:
-      type: integer
-      default: 200
-      tooltip: "If the score is bigger than this value the system shuts down."
-      constraints:
-        min_value: 0
-        
-    email_on_shutdown:
-      type: email
-      label: "Your email"
-      tooltip: "The email address we will send an alert email to if the security score is critial"
-      default: "@admin.email"
-      
+    shutdown:
+
+      shutdown_condition:
+        type: integer
+        default: 200
+        tooltip: "If the score is bigger than this value the system shuts down."
+        constraints:
+          min_value: 0
+
+      email_on_shutdown:
+        type: email
+        label: "Your email"
+        tooltip: "The email address we will send an alert email to if the security score is critial"
+        default: "@admin.email"
+
       private_key:
         label: Private Key
         type: individual
