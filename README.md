@@ -60,11 +60,16 @@ settings:
       tooltip: "The email address we will send an alert email to if the security score is critial"
       default: "@admin.email"
       
-    public_key:
-      type: individual
-      settings_class: myPlugin\Elements\PublicKeySetting
+      private_key:
+        label: Private Key
+        type: individual
+        tooltip: "If you have a pro version of the WP Security Plugin you can add your key here."
+        settings_class: myPlugin\Elements\PublicKeySetting
 ```
 
 ### During WordPress Installation
 
+When using the example YAML the WordPress installation process will have an aditional step that allows the user to configure the pre-installed plugin. 
+
 ![WordPress installation](/images/WordPress%20installation.png)
+
