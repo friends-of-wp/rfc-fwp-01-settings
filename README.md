@@ -40,6 +40,8 @@ The situation is different with other CMS or store systems. Here you can create 
 
 This example shows how a settings configuration can look like in YAML format.
 
+### Configuration file
+
 ```yaml
 settings:
   
@@ -62,3 +64,7 @@ settings:
       type: individual
       settings_class: myPlugin\Elements\PublicKeySetting
 ```
+
+### During WordPress Installation
+
+![WordPress installation](/images/WordPress%20installation.png)
