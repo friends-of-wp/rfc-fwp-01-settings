@@ -54,6 +54,7 @@ settings:
         
     email_on_shutdown:
       type: email
+      label: "Your email"
       tooltip: "The email address we will send an alert email to if the security score is critial"
       default: "@admin.email"
       
