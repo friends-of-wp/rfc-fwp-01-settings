@@ -28,7 +28,7 @@ The situation is different with other CMS or store systems. Here you can create 
 - **Open Source** - This library is open source and everybody should have access to it.
 
 
-- **Complete** - All standard configuration field types should be included. E.g. integer, url, string, email, range, image.
+- **Complete** - All standard configuration field types should be included. E.g. integer, URL, string, email, range, image.
 
 
 - **Extensible** - It should be very easy to extend the system with individual fields types.
