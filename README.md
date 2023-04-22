@@ -9,7 +9,7 @@ In the preferred case, this proposal should go into the WordPress core, but a go
 
 ## Motivation
 
-When creating WordPres plugins, it is currently the case that each developer has to take care of the extension configuration pages themselves. WordPress offers functionalities that make this very easy, but the level of automation is still low.
+When creating WordPress plugins, it is currently the case that each developer has to take care of the extension configuration pages themselves. WordPress offers functionalities that make this very easy, but the level of automation is still low.
 
 The situation is different with other CMS or store systems. Here you can create standard configuration via XML or YAML files very easily. [Shopware](https://developers.shopware.com/developers-guide/plugin-configuration/) should be mentioned here as an excellent example.
 
