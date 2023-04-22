@@ -79,7 +79,7 @@ When using the example YAML the WordPress installation process will have an addi
 
 ### CLI
 
-When decoupling the configuration from the frontend it is possible to configure plugins via the CLI. This should be done via [wp-cli](https://wp-cli.org/de/). 
+When decoupling the configuration from the frontend it is possible to configure plugins via the CLI. This should be done via [wp-cli](https://wp-cli.org/). 
 
 The first example shows an invalid input. The CLI is able to do the validation due to the config.
 
